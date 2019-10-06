@@ -18,7 +18,7 @@ private:
     using N = typename std::iterator_traits<I>::difference_type;
 
     struct edge_t;
-    using node_t = typename list_pool<std::vector<edge_t>>::list_type;
+    using node_t = typename rks::list_pool<std::vector<edge_t>>::list_type;
 
     struct edge_t {
         T value;
@@ -32,7 +32,7 @@ private:
             value(v), first(f), last(l), child(s) { }
     };
 
-    list_pool<std::vector<edge_t>> _nodes;
+    rks::list_pool<std::vector<edge_t>> _nodes;
     node_t _root;
 
     using edge_iterator = typename std::vector<edge_t>::iterator;
