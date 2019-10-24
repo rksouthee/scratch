@@ -29,7 +29,7 @@ template <typename I, typename N, typename P, typename R>
 std::tuple<I, I, N> search_consecutive_if_n(I f, N n, N m, P p, R r)
 {
     if (n == N(0)) return std::make_tuple(f, f, n);
-    while (true) {
+    while (n >= m) {
         std::pair<I, N> x = ::find_if_n(f, n, p);
         if (x.second < m) return std::make_tuple(x.first, x.first, x.second);
         std::pair<I, N> y = find_adjacent_mismatch_nonempty_n(x.first, m, r);
@@ -37,6 +37,7 @@ std::tuple<I, I, N> search_consecutive_if_n(I f, N n, N m, P p, R r)
         f = y.first;
         n = x.second - (m - y.second);
     }
+    return std::make_tuple(f, f, n);
 }
 
 int main()
