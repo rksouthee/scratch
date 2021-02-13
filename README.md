@@ -47,3 +47,9 @@ one idea about a possible API for achieving regular functions generically.
 I was helping somebody with a problem they had, and come up with this solution.
 I like doing programs like these because they're examples of how the Standard
 Template Library can be extended with user defined algorithms.
+
+## Sudoku Solver
+
+This was a simple example of backtracking algorithms. This could be expanded by
+providing a user interface that allows the input of an arbitrary sudoku puzzle
+and generate a solution(s).
