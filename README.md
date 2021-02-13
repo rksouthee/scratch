@@ -75,3 +75,15 @@ and generate a solution(s).
 I was helping somebody generate the [Thue-Morse
 sequence](https://en.wikipedia.org/wiki/Thue%E2%80%93Morse_sequence).  The
 problem was to implement two ways of generating the sequence.
+
+## Ukkonen's Algorithm
+
+`ukkonen.cpp`
+
+This was my attempt at understanding and implementing [Ukkonen's
+algorithm](https://en.wikipedia.org/wiki/Ukkonen%27s_algorithm). This algorithm
+can be used in the implementation of the [Burrows-Wheeler
+transform](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform).
+
+I managed to simplify some of the code, but I think it was a mistake trying to
+use a list pool.
