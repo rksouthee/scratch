@@ -25,3 +25,10 @@ and found [EWD924](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD09xx/EW
 where Dijkstra mentions the Game of Stanley Gill. I wrote an article,
 [The Game of Stanley Gill](https://rksouthee.github.io/2019/06/28/the-game-of-stanley-gill.html)
 that proved the correctness of the algorithm.
+
+## Memory Arena
+
+The `memory_arena` is an allocator that allocates in blocks, but doesn't free it's memory until the end.
+This is useful in scenarios when building up some data structure that can then be released all at once.
+The C++ Standard Library introduced `std::pmr::monotonic_buffer_resource` in C++17 that solves the same
+problem as `memory_arena`.
