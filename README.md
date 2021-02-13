@@ -38,3 +38,14 @@ problem as `memory_arena`.
 This is an implementation of an algorithm described in [An Algorithm for
 Computing Quotient and Remainder Polynomials]
 (https://www.semanticscholar.org/paper/An-Algorithm-For-Computing-Quotient-And-Remainder-Kalu/f82301d6945cbee6b4f2aa812fd068a838d3fe7d).
+
+## Regular
+
+I like thinking about how languages can support Generic Programming succinctly. These notes are
+one idea about a possible API for achieving regular functions generically.
+
+## Search for `n` Consecutive Values
+
+I was helping somebody with a problem they had, and come up with this solution.
+I like doing programs like these because they're examples of how the Standard
+Template Library can be extended with user defined algorithms.
