@@ -14,3 +14,14 @@ an interesting data structure. I first saw this data structure in a lecture give
 where he mentioned that a binomial queue could be implemented with this technique.
 
 The program requires the code from [Elements of Programming](http://elementsofprogramming.com/).
+
+## EWD924
+
+I watched a video of a lecture given by [Edsger
+Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra) where he
+demonstrated a beautiful algorithm for computing both the greatest common
+divisor and lowest common multiple. I went to learn more about the algorithm
+and found [EWD924](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD09xx/EWD924.html)
+where Dijkstra mentions the Game of Stanley Gill. I wrote an article,
+[The Game of Stanley Gill](https://rksouthee.github.io/2019/06/28/the-game-of-stanley-gill.html)
+that proved the correctness of the algorithm.
