@@ -35,9 +35,7 @@ problem as `memory_arena`.
 
 ## Polynomial Long Division
 
-This is an implementation of an algorithm described in [An Algorithm for
-Computing Quotient and Remainder Polynomials]
-(https://www.semanticscholar.org/paper/An-Algorithm-For-Computing-Quotient-And-Remainder-Kalu/f82301d6945cbee6b4f2aa812fd068a838d3fe7d).
+This is an implementation of an algorithm described in [An Algorithm for Computing Quotient and Remainder Polynomials](https://www.semanticscholar.org/paper/An-Algorithm-For-Computing-Quotient-And-Remainder-Kalu/f82301d6945cbee6b4f2aa812fd068a838d3fe7d).
 
 ## Regular
 
