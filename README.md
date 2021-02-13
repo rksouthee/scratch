@@ -32,3 +32,9 @@ The `memory_arena` is an allocator that allocates in blocks, but doesn't free it
 This is useful in scenarios when building up some data structure that can then be released all at once.
 The C++ Standard Library introduced `std::pmr::monotonic_buffer_resource` in C++17 that solves the same
 problem as `memory_arena`.
+
+## Polynomial Long Division
+
+This is an implementation of an algorithm described in [An Algorithm for
+Computing Quotient and Remainder Polynomials]
+(https://www.semanticscholar.org/paper/An-Algorithm-For-Computing-Quotient-And-Remainder-Kalu/f82301d6945cbee6b4f2aa812fd068a838d3fe7d).
