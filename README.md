@@ -87,3 +87,15 @@ transform](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform).
 
 I managed to simplify some of the code, but I think it was a mistake trying to
 use a list pool.
+
+## Zipf
+
+`zipf.cpp`
+
+I first heard about the Zipf distribution in [The Zipf
+Mystery](https://www.youtube.com/watch?v=fCn8zs912OE) video by
+[Vsauce](https://www.youtube.com/channel/UC6nSFpj9HTCZ5t-N3Rm3-HA). This
+distribution would be ideal in testing some algorithms, such as sorting, using
+something that models data distribution typically seen in real world data.
+
+I need to learn more about the `<random>` library in the C++ Standard Library.
